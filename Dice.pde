@@ -21,8 +21,9 @@ void setup()
   }
   void mousePressed()
   {
+sum = 0;
       redraw();
-      sum = 0;
+  
   }
   class Die //models one single dice cube
   {
